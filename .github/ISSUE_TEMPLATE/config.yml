@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or open-ended idea
+    url: https://github.com/Uxcel-Lab/product-skills/discussions
+    about: For questions and discussion that aren't a bug report or a new-skill proposal.
+  - name: Uxcel
+    url: https://uxcel.com
+    about: The lessons these skills are distilled from.

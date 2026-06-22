@@ -1,0 +1,41 @@
+name: Skill produces bad output
+description: Report a skill that gives wrong, generic, or low-quality results on a real task.
+title: "[skill-bug] <skill name>: <short summary>"
+labels: ["skill-bug"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Which skill?
+      description: Path or name, e.g. ux/audits/heuristics
+      placeholder: ux/audits/heuristics
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What did you ask?
+      description: The prompt or task you gave the assistant.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What you got
+      description: The output that was wrong, generic, or low quality.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+      description: What good output would have looked like, and why the result fell short.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool / environment
+      description: e.g. Claude Code, Cowork, Figma Make, model version
+    validations:
+      required: false

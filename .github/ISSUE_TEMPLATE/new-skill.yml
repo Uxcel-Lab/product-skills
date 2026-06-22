@@ -1,0 +1,47 @@
+name: Propose a new skill
+description: Suggest a new skill. New skills are reviewed against the quality bar before they're written — discuss here first.
+title: "[new-skill] <proposed skill name>"
+labels: ["new-skill"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a skill. Please read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) first — a skill is accepted only if it changes the assistant's default output and is written as decision rules, not a knowledge dump.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill
+      description: Discipline, category, and name, e.g. ux/components/breadcrumbs
+      placeholder: ux/components/breadcrumbs
+    validations:
+      required: true
+  - type: textarea
+    id: default-gap
+    attributes:
+      label: How does this change the assistant's default output?
+      description: Is it corrective (model is subtly wrong), structuring (knows it but doesn't apply it systematically), or enriching (adds missing nuance)? Be specific about what the default gets wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: rules
+    attributes:
+      label: What decision rules would it encode?
+      description: A few example if-then triggers or good/bad examples it would teach.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source lessons
+      description: Citable sources (ideally Uxcel lessons) the skill would be grounded in.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Bar check
+      options:
+        - label: This isn't just facts/definitions — it changes behavior on a real task.
+          required: true
+        - label: I checked it isn't already covered by an existing skill.
+          required: true
