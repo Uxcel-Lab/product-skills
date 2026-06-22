@@ -1,6 +1,6 @@
 ---
 name: pm-experimentation-ab
-description: Design or critique an A/B test or controlled product experiment with statistical rigor — pre-registered falsifiable hypothesis, sample-size/power up front, a full business cycle, one primary metric plus guardrails, segment + long-term reads, and a pre-set iterate/pivot/persevere decision. Catches the defaults Claude misses: peeking/early stopping, tiny samples, no guardrails, vanity metrics, "it won" with no learning loop. Trigger when asked to set up or review an A/B test, design an experiment, pick experiment metrics, decide sample size/significance/duration, or interpret/act on test results.
+description: "Design or critique an A/B test or controlled product experiment with statistical rigor — pre-registered falsifiable hypothesis, sample-size/power up front, a full business cycle, one primary metric plus guardrails, segment + long-term reads, and a pre-set iterate/pivot/persevere decision. Catches the defaults Claude misses: peeking/early stopping, tiny samples, no guardrails, vanity metrics, \"it won\" with no learning loop. Trigger when asked to set up or review an A/B test, design an experiment, pick experiment metrics, decide sample size/significance/duration, or interpret/act on test results."
 license: MIT
 metadata:
   author: uxcel

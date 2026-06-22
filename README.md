@@ -46,6 +46,17 @@ The single rule behind every skill: **it must change the assistant's default out
 /plugin install uxcel@product-skills
 ```
 
+**Or use [`npx skills`](https://github.com/vercel-labs/skills)** to install into Claude Code, Cursor, Codex, and 60+ other agents straight from GitHub:
+
+```
+# browse without installing
+npx skills add Uxcel-Lab/product-skills --list
+
+# install everything (or a few by name)
+npx skills add Uxcel-Lab/product-skills
+npx skills add Uxcel-Lab/product-skills --skill ux-heuristics-audit --skill pm-product-spec
+```
+
 ---
 
 ## Structure
