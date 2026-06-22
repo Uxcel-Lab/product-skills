@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "product-skills",
+  "owner": {
+    "name": "Uxcel Lab",
+    "url": "https://uxcel.com"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "UX and product-management skills distilled from Uxcel lessons."
+  },
+  "plugins": [
+    {
+      "name": "uxcel",
+      "source": "./",
+      "description": "UX and PM skills — audits, screens, flows, components, deliverables, processes, and workflows.",
+      "version": "1.0.0"
+    }
+  ]
+}

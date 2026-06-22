@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "uxcel",
+  "displayName": "Uxcel Skills",
+  "version": "1.0.0",
+  "description": "UX and product management skills from Uxcel lessons — audits, screens, flows, components, deliverables, processes, and workflows. Use for design reviews, heuristics audits, PRDs, roadmaps, onboarding flows, accessibility, and PM discovery.",
+  "author": {
+    "name": "uxcel"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Uxcel-Lab/product-skills",
+  "repository": "https://github.com/Uxcel-Lab/product-skills",
+  "keywords": [
+    "ux",
+    "product-management",
+    "design",
+    "heuristics",
+    "accessibility",
+    "prd",
+    "roadmap",
+    "onboarding"
+  ],
+  "skills": [
+    "./ux/audits",
+    "./ux/components",
+    "./ux/flows",
+    "./ux/foundations",
+    "./ux/screens",
+    "./ux/workflows",
+    "./pm/audits",
+    "./pm/deliverables",
+    "./pm/foundations",
+    "./pm/processes",
+    "./pm/workflows"
+  ]
+}
