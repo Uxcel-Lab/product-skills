@@ -1,10 +1,12 @@
 # Product Skills
 
-An open toolkit of **UX and product-management skills** for AI assistants, distilled from [Uxcel](https://uxcel.com) lessons.
+An open toolkit of **UX and product-management skills** for AI assistants, distilled from [Uxcel lessons](https://uxcel.com/lessons).
 
 Each skill is a `SKILL.md` file — a focused set of decision rules that changes how an AI assistant behaves on a design or PM task. They turn generic, plausible-sounding output into work that follows the same principles a trained designer or PM would apply: gating decisions on context, leading with prevention, auditing against real standards, and refusing to over-apply best practices.
 
 These work with Claude, Cowork, Figma Make, and any tool that loads skill files.
+
+> **Want the full craft, not just the rules?** Each skill distills [Uxcel lessons](https://uxcel.com/lessons) into decision rules an AI can apply. The complete, interactive [**Uxcel courses**](https://uxcel.com/courses) teach the depth, examples, and hands-on practice behind every one.
 
 ---
 
@@ -77,7 +79,7 @@ This is a curated toolkit. Feedback and issues are always welcome, fixes to exis
 
 ## Attribution
 
-Every skill links back to the [Uxcel](https://uxcel.com) lessons it was built from — see the **Source lessons** section at the bottom of each `SKILL.md`.
+Every skill links back to the [Uxcel lessons](https://uxcel.com/lessons) it was built from — see the **Source lessons** section at the bottom of each `SKILL.md`. Those lessons are part of broader [Uxcel courses](https://uxcel.com/courses) if you want to go deeper than a skill encodes.
 
 ## License
 

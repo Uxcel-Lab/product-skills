@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in improving this toolkit. It's a curated set of UX and PM skills distilled from [Uxcel](https://uxcel.com) lessons, and we care more about a small set of skills that genuinely change an assistant's output than a large pile of mediocre ones. Contributions are welcome within that bar.
+Thanks for your interest in improving this toolkit. It's a curated set of UX and PM skills distilled from [Uxcel lessons](https://uxcel.com/lessons), and we care more about a small set of skills that genuinely change an assistant's output than a large pile of mediocre ones. Contributions are welcome within that bar.
 
 There are three ways to contribute, in order of friction.
 

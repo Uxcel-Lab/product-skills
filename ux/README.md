@@ -86,4 +86,4 @@ Review existing work against a standard and return a prioritized, severity-rated
 
 ---
 
-All skills are derived from [Uxcel](https://uxcel.com) lessons; see the **Source lessons** section in each `SKILL.md`.
+All skills are derived from [Uxcel lessons](https://uxcel.com/lessons), part of the broader [Uxcel courses](https://uxcel.com/courses); see the **Source lessons** section in each `SKILL.md`.
