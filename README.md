@@ -88,6 +88,8 @@ Every skill is a directory containing exactly one `SKILL.md`, at `{discipline}/{
 
 This is a curated toolkit. Feedback and issues are always welcome, fixes to existing skills can go straight to a PR, and new skills are reviewed against a quality bar — open an issue to discuss one first. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full bar.
 
+⭐ If these skills are useful, **star the repo** — it helps other designers and PMs find them.
+
 ## Attribution
 
 Every skill links back to the [Uxcel lessons](https://uxcel.com/lessons) it was built from — see the **Source lessons** section at the bottom of each `SKILL.md`. Those lessons are part of broader [Uxcel courses](https://uxcel.com/courses) if you want to go deeper than a skill encodes.
