@@ -1,0 +1,39 @@
+name: Request a skill
+description: Suggest a skill you'd find useful. You don't need to write it — just tell us what's missing.
+title: "[skill-request] <what the skill should help with>"
+labels: ["skill-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Requests help shape what we build next — no need to author anything. If you *do* want to write the skill yourself, use the **Propose a new skill** template instead.
+  - type: textarea
+    id: task
+    attributes:
+      label: What task should this skill help with?
+      description: The design or PM task you wish an AI assistant handled better.
+      placeholder: e.g. designing a multi-step form, writing a launch GTM plan, reviewing a sign-up flow for friction
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: How does the assistant fall short today?
+      description: What does Claude (or another assistant) get wrong, generic, or incomplete on this task right now?
+    validations:
+      required: true
+  - type: textarea
+    id: ideal
+    attributes:
+      label: What would good output look like?
+      description: What a strong result would include, or principles/rules it should follow.
+    validations:
+      required: false
+  - type: input
+    id: discipline
+    attributes:
+      label: Discipline
+      description: UX, PM, or unsure
+      placeholder: UX
+    validations:
+      required: false

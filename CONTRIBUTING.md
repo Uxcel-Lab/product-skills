@@ -2,7 +2,7 @@
 
 Thanks for your interest in improving this toolkit. It's a curated set of UX and PM skills distilled from [Uxcel lessons](https://uxcel.com/lessons), and we care more about a small set of skills that genuinely change an assistant's output than a large pile of mediocre ones. Contributions are welcome within that bar.
 
-There are three ways to contribute, in order of friction.
+There are four ways to contribute, in order of friction.
 
 ## 1. Feedback & issues — always open
 
@@ -10,9 +10,12 @@ The most valuable contribution is telling us where a skill falls short. Open an 
 
 - A skill that produces wrong, generic, or low-quality output on a real task (include the prompt and what you got).
 - Missing nuance — a case the skill should handle but doesn't.
-- A new skill you'd find useful (see lane 3 before writing one).
 
-## 2. Fixes to existing skills — PRs welcome
+## 2. Request a skill — you don't have to write it
+
+Most of our skills are distilled from Uxcel lessons, so we do the authoring — but you tell us what's worth building. If there's a design or PM task an AI assistant handles poorly and no skill covers it yet, open a **Request a skill** issue: describe the task, how the assistant falls short today, and what good output would look like. No need to write rules or cite sources. Requests directly shape what we build next.
+
+## 3. Fixes to existing skills — PRs welcome
 
 Small, reviewable improvements are easy to accept:
 
@@ -23,7 +26,7 @@ Small, reviewable improvements are easy to accept:
 
 Keep each PR focused on one skill where possible.
 
-## 3. New skills — open an issue first
+## 4. Author a new skill — open an issue first
 
 New skills are reviewed against a quality bar, not merged just for existing. Please open an issue to discuss before writing one, so we can confirm it clears the bar and isn't already covered.
 
