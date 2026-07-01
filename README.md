@@ -16,7 +16,7 @@ These skills work with Claude, Cowork, Figma Make, and any tool that loads skill
 
 ---
 
-## What changes
+## Examples (before/after)
 
 The fastest way to understand a skill is to see the same prompt answered with and without it. Same model, same request. The skill supplies the framework, the discipline, and the standard.
 
