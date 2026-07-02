@@ -1,13 +1,13 @@
-<p align="center">
-  <a href="https://uxcel.com">
-    <img src="./assets/banner.png" alt="Product Skills" width="900">
-  </a>
-</p>
-
 <h1 align="center">Product Skills</h1>
 
 <p align="center">
   Design and product judgment for AI assistants, distilled from the Uxcel learning library.
+</p>
+
+<p align="center">
+  <a href="https://uxcel.com">
+    <img src="./assets/banner.png" alt="Product Skills" width="900">
+  </a>
 </p>
 
 <p align="center">
@@ -37,11 +37,7 @@ These skills work with Claude, Cowork, Figma Make, and any tool that loads skill
 
 ---
 
-<<<<<<< HEAD
 ## Quickstart
-=======
-## Examples (before/after)
->>>>>>> ff8504df5d34b640dc1f0cc5e5fea2abecfe2949
 
 **Install the whole set as a Claude plugin.** This repo doubles as a plugin marketplace, so it installs straight from GitHub:
 
@@ -87,39 +83,9 @@ Browse the [UX design index](./ux/README.md) and [product management index](./pm
 
 ---
 
-<<<<<<< HEAD
 ## Types of skills
 
 There are three kinds, and the kind dictates how a skill behaves:
-=======
-## Install
-
-**Try one skill in 30 seconds.** Copy a single `SKILL.md` (for example `ux/audits/heuristics/SKILL.md`) into your tool's skills directory, or paste its contents into your prompt. Ask your assistant to review or build something, and watch the next response change.
-
-**Install the whole set as a Claude plugin.** This repo doubles as a plugin marketplace, so you can install it straight from GitHub, no directory listing required:
-
-```
-/plugin marketplace add Uxcel-Lab/product-skills
-/plugin install uxcel@product-skills
-```
-
-**Or use [`npx skills`](https://github.com/vercel-labs/skills)** to install into Claude Code, Cursor, Codex, and 60+ other agents straight from GitHub:
-
-```
-# browse without installing
-npx skills add Uxcel-Lab/product-skills --list
-
-# install everything (or a few by name)
-npx skills add Uxcel-Lab/product-skills
-npx skills add Uxcel-Lab/product-skills --skill ux-heuristics-audit --skill pm-product-spec
-```
-
----
-
-## The three kinds of skill
-
-Every skill is one of three kinds, and the kind dictates how it behaves:
->>>>>>> ff8504df5d34b640dc1f0cc5e5fea2abecfe2949
 
 - **Generative** skills produce or modify work (a screen, a flow, a PRD). Instead of applying every best practice at once, they *gate*: they establish context, apply the always-true core, then surface context-dependent decisions with trade-offs so you can choose. They live in `foundations`, `components`, `screens`, `flows`, `deliverables`, and `processes`.
 - **Evaluative** skills (audits) review existing work against a standard (heuristics, accessibility, spec quality) and return a severity-rated issue list with concrete fixes. They live in `audits`.
