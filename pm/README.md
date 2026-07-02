@@ -20,16 +20,6 @@ There are three kinds, and each one is used a little differently.
 
 ---
 
-## What changes
-
-**Prompt:** *"Write a PRD for this feature."*
-
-![Product spec, default vs. with the product-spec skill. [image: product-spec-before-after]](../assets/product-spec-before-after.png)
-
-Default produces a feature wish list. With [`deliverables/product-spec`](./deliverables/product-spec/SKILL.md), the spec anchors to a validated problem, states measurable requirements, and surfaces the risks and assumptions a real reviewer would ask about.
-
----
-
 ## Foundations
 
 The framing artifacts everything else builds on.

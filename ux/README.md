@@ -20,16 +20,6 @@ There are three kinds, and each one is used a little differently.
 
 ---
 
-## What changes
-
-**Prompt:** *"Review this checkout screen for usability issues."*
-
-![Usability review, default vs. with the heuristics audit. [image: heuristics-before-after]](../assets/heuristics-before-after.png)
-
-Default gives a flat list of generic tips ("make the CTA clearer"). With [`audits/heuristics`](./audits/heuristics/SKILL.md), every finding names the heuristic it violates, carries a severity rating, and comes with a concrete fix.
-
----
-
 ## Foundations
 
 The cross-cutting visual and writing systems every screen rests on.
