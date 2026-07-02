@@ -140,6 +140,8 @@ npx skills add Uxcel-Lab/product-skills
 npx skills add Uxcel-Lab/product-skills --skill ux-heuristics-audit --skill pm-product-spec
 ```
 
+**Or download the archive.** Grab a zip of all skills from the [latest release](https://github.com/Uxcel-Lab/product-skills/releases/latest) and drop the `SKILL.md` files into your tool — no git or CLI needed.
+
 ---
 
 ## Contributing
