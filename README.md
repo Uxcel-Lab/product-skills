@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT">
   <img src="https://img.shields.io/badge/skills-59-brightgreen" alt="59 skills">
-  <img src="https://img.shields.io/badge/works%20with-Claude%20%C2%B7%20Cowork%20%C2%B7%20Figma%20Make-black" alt="Works with Claude, Cowork, and Figma Make">
+  <img src="https://img.shields.io/badge/works%20with-Claude%20%C2%B7%20ChatGPT%20%C2%B7%20Lovable%20%C2%B7%20Cursor%20%C2%B7%20Figma-black" alt="Works with Claude, ChatGPT, Lovable, Cursor, and Figma">
 </p>
 
 <p align="center">
