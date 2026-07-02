@@ -59,17 +59,7 @@ Browse the [UX design index](./ux/README.md) and [product management index](./pm
 
 ---
 
-## The three kinds of skill
-
-Every skill is one of three kinds, and the kind dictates how it behaves:
-
-- **Generative** skills produce or modify work (a screen, a flow, a PRD). Instead of applying every best practice at once, they *gate*: they establish context, apply the always-true core, then surface context-dependent decisions with trade-offs so you can choose. They live in `foundations`, `components`, `screens`, `flows`, `deliverables`, and `processes`.
-- **Evaluative** skills (audits) review existing work against a standard (heuristics, accessibility, spec quality) and return a severity-rated issue list with concrete fixes. They live in `audits`.
-- **Orchestrators** (workflows) are the front doors that compose the other two: review an artifact holistically, or build something new from the ground up. They live in `workflows`.
-
----
-
-## Get started
+## Install
 
 **Try one skill in 30 seconds.** Copy a single `SKILL.md` (for example `ux/audits/heuristics/SKILL.md`) into your tool's skills directory, or paste its contents into your prompt. Ask your assistant to review or build something, and watch the next response change.
 
@@ -90,6 +80,16 @@ npx skills add Uxcel-Lab/product-skills --list
 npx skills add Uxcel-Lab/product-skills
 npx skills add Uxcel-Lab/product-skills --skill ux-heuristics-audit --skill pm-product-spec
 ```
+
+---
+
+## The three kinds of skill
+
+Every skill is one of three kinds, and the kind dictates how it behaves:
+
+- **Generative** skills produce or modify work (a screen, a flow, a PRD). Instead of applying every best practice at once, they *gate*: they establish context, apply the always-true core, then surface context-dependent decisions with trade-offs so you can choose. They live in `foundations`, `components`, `screens`, `flows`, `deliverables`, and `processes`.
+- **Evaluative** skills (audits) review existing work against a standard (heuristics, accessibility, spec quality) and return a severity-rated issue list with concrete fixes. They live in `audits`.
+- **Orchestrators** (workflows) are the front doors that compose the other two: review an artifact holistically, or build something new from the ground up. They live in `workflows`.
 
 ---
 
